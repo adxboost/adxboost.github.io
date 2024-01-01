@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://adxboost.github.io</id>
+    <title>AdXboost</title>
+    <updated>2024-01-01T16:13:10.204Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://adxboost.github.io"/>
+    <link rel="self" href="https://adxboost.github.io/atom.xml"/>
+    <subtitle>无限进步</subtitle>
+    <logo>https://adxboost.github.io/images/avatar.png</logo>
+    <icon>https://adxboost.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, AdXboost</rights>
+    <entry>
+        <title type="html"><![CDATA[SC和VC的广告有什么区别？【亚马逊广告100问】-002]]></title>
+        <id>https://adxboost.github.io/post/amazon-ads-qa-002/</id>
+        <link href="https://adxboost.github.io/post/amazon-ads-qa-002/">
+        </link>
+        <updated>2023-12-28T16:39:42.000Z</updated>
+        <content type="html"><![CDATA[<p>基本没什么区别，都是投放，可以投放的内容也差不多。</p>
+<p>只是VC的广告被暂停的时候有跟SC不一样的情况。</p>
+<ul>
+<li>Ineligible #广告因high cost被亚马逊官方判定无效</li>
+<li>No Cart Button #购物车按钮不在该账号</li>
+<li>Stock Out #产品缺货</li>
+<li>Stock Out&amp;Ineligible #产品缺货并且广告无效</li>
+<li>Useless Link #因该链接评分过低或者链接冗杂等原因所以放弃的链接</li>
+<li>Waiting for Optimization of Listing #因产品链接正在重新优化所以暂时关闭广告</li>
+<li>No Profit #因产品毛利过低，并且销量没问题，所以关闭广告</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[亚马逊的站内广告类型有哪些？【亚马逊广告100问】-001]]></title>
+        <id>https://adxboost.github.io/post/amazon-ads-qa-001/</id>
+        <link href="https://adxboost.github.io/post/amazon-ads-qa-001/">
+        </link>
+        <updated>2023-12-28T16:22:19.000Z</updated>
+        <content type="html"><![CDATA[<p>目前在站内有SP,SB,SD,TV四大类型广告。</p>
+<figure data-type="image" tabindex="1"><img src="https://adxboost.github.io/post-images/1703779391687.png" alt="" loading="lazy"></figure>
+<p>SP：投放商品，主要对用户购物决策产生影响，有直接效果。<br>
+SB：投放品牌，主要作为品牌影响力的方向，占据篇幅大，有视频和多组图片展示，同时位置多，展示SKU多。<br>
+SD：投放商品，主要作为多渠道商品层面展示，刺激用户想起来去购物车里买单。<br>
+TV：最新的广告类型，和SD一样从DSP里出来到了站内。可以作为品牌&amp;产品的影响力补充。</p>
+]]></content>
+    </entry>
+</feed>
