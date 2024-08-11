@@ -1,0 +1,267 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>AdXboost</title>
+<link rel="shortcut icon" href="https://adxboost.com/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://adxboost.com/media/css/tailwind.css">
+<link rel="stylesheet" href="https://adxboost.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="AdXboost - Atom Feed" href="https://adxboost.com/atom.xml">
+
+    
+
+  <meta name="description" content="无限进步" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+      <a href="https://adxboost.com/post/amazon-ads-book" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        亚马逊广告心得
+      </a>
+    
+    <a href="https://adxboost.com/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
+      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      AdXboost
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      无限进步
+    </div>
+    
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://adxboost.com/images/avatar.png?v=1723391862421" alt="AdXboost" width="100%" height="100%">
+  </div>
+</header>
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-de-di-ceng-luo-ji-2-wei-shi-me-yao-you-hua-guang-gao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          亚马逊广告的底层逻辑(2)–为什么要优化广告？
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2024-07-12</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        为什么要优化广告？这里其实是几个问题
+广告效果是如何不好？广告要做到什么样才算好？是否有可能做到，如何做？
+一般我们设定广告目标，是基于利润要求。比如一款产品不含广告费用的利润有40%，我打算拿出利润率的20%进行广告投放，来扩大流量，加大...
+      </div>
+      <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-de-di-ceng-luo-ji-2-wei-shi-me-yao-you-hua-guang-gao/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-de-di-ceng-luo-ji-1-wei-shi-me-yao-tou-guang-gao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          亚马逊广告的底层逻辑(1)–为什么要投广告？
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2024-07-12</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        自己做了差不多5年亚马逊了，也曾满腔热血，怀揣创业激情，梦想一日暴富。自己跑出过几个能够日出千单的产品，也经历过漫长的清仓路程。
+创过业，打过工。而且现在正在打工，在上市公司做过高级亚马逊运营，在纳斯达克上市公司做过VC广告投放，目前在国内...
+      </div>
+      <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-de-di-ceng-luo-ji-1-wei-shi-me-yao-tou-guang-gao/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-100-wen-zhi-jin-jie-you-hua-pian-81-100/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          亚马逊广告100问之进阶优化篇【81-100】
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2024-07-12</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        前两篇基础信息和基础投放，更多是认识，以及从术的层面看待亚马逊广告，本篇则是从道的面，探讨亚马逊广告核心
+81-针对优化acos有哪些方法？
+首先要看acos的计算方式，acos = spend / sales。
+spend = click...
+      </div>
+      <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-100-wen-zhi-jin-jie-you-hua-pian-81-100/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-100-wen-zhi-ji-chu-tou-fang-pian-41-80/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          亚马逊广告100问之基础投放篇【41-80】
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2024-07-12</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        本篇章更多是操作层面的内容，广告如何操作优化。
+42-投放广告前我要准备什么？
+1、非常清楚知道你要投放的SKU的流量情况，如关键词是哪些，类目名称是什么，主要竞品是哪几个？
+2、非常清楚你的广告成本要多少，你能给到的CPA，acos是多少...
+      </div>
+      <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-100-wen-zhi-ji-chu-tou-fang-pian-41-80/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-100-wen-zhi-ji-chu-xin-xi-pian-1-40/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          亚马逊广告100问之基础信息篇【1-40】
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2024-07-12</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        本篇章主要是介绍基本的亚马逊知识内容，帮助大家认识到最核心最基础最正确的亚马逊广告逻辑，避免因为基础错误，导致后续分析判断全是错的。
+01-亚马逊有哪些类型的广告？
+在站内有SP,SB,SD,TV四大类型广告。
+
+SP：投放商品，主要对用户...
+      </div>
+      <a href="https://adxboost.com/post/ya-ma-xun-guang-gao-100-wen-zhi-ji-chu-xin-xi-pian-1-40/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://adxboost.com/post/amazon-ads-book/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          开始写一本亚马逊站内广告的书
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2024-06-26</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        最近看到很多人在小红书分享亚马逊站内广告内容，很多是关于具体的竞价方式，投放哪些词，怎么出价。
+太基础了，而且根基还不稳。
+作为从事了6年亚马逊行业的人，决定分享下自己的经验，从事过运营和广告优化师，相比与市面上吹牛的人来说，我会很实际。
+...
+      </div>
+      <a href="https://adxboost.com/post/amazon-ads-book/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://adxboost.com/post/amazon-ads-qa-002/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          SC和VC的广告有什么区别？【亚马逊广告100问】-002
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2023-12-29</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        基本没什么区别，都是投放，可以投放的内容也差不多。
+只是VC的广告被暂停的时候有跟SC不一样的情况。
+
+Ineligible #广告因high cost被亚马逊官方判定无效
+No Cart Button #购物车按钮不在该账号
+Stock ...
+      </div>
+      <a href="https://adxboost.com/post/amazon-ads-qa-002/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://adxboost.com/post/amazon-ads-qa-001/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          亚马逊的站内广告类型有哪些？【亚马逊广告100问】-001
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2023-12-29</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        目前在站内有SP,SB,SD,TV四大类型广告。
+
+SP：投放商品，主要对用户购物决策产生影响，有直接效果。
+SB：投放品牌，主要作为品牌影响力的方向，占据篇幅大，有视频和多组图片展示，同时位置多，展示SKU多。
+SD：投放商品，主要作为多...
+      </div>
+      <a href="https://adxboost.com/post/amazon-ads-qa-001/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://adxboost.com/media/scripts/main.js"></script>
+</body>
+
+</html>
